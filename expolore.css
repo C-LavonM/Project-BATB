@@ -1,4 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&family=Macondo&family=Space+Mono&display=swap');
+
 * {
-    background-color: black;
-    color:beige
+    
+    color:beige;
+    
+
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: black;
+    }
+  }
+
+body{
+    background-image: url(./Video/background.JPG);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    position: ;
+    height: 
+    opacity: 0.8;
 }
