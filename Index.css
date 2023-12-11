@@ -11,7 +11,7 @@
 
 /* Text wrap up */
 .showcase {
-    position: absolute;
+    position: relative;
     right: 0;
     width: 100%;
     min-height: 100vh;
@@ -67,7 +67,16 @@
 
 }
 
+/* body */
+body, html {
+    height: 100%;
+    margin: 0;
+    overflow: auto; /* This prevents scrollbars */
+}
 
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
 
 /* Video size settings */
@@ -95,6 +104,7 @@
 .text {
     position: relative;
     z-index: 10;
+    overflow: auto;
 }
 
 .text h2 {
@@ -201,10 +211,18 @@ h1 {
 }
 
 button {
+    -webkit-appearance: none;
+    appearance: none;
     background-color: transparent;
-    border-width: 0;
-    border-color: transparent;
-
+    border: none;
+    padding: 0;
+    margin: 0;
+    font-size: inherit;
+    font-family: inherit;
+    cursor: pointer;
+    display: inline;
+    text-decoration: underline;
+    color: inherit;
 }
 
 
